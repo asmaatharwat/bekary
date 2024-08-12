@@ -1,0 +1,415 @@
+/* GENERAL styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+li {
+
+    list-style: none;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+
+/* start of nav  */
+
+
+.home .nav .nav-img {
+
+    float: left;
+    margin-top: 20px;
+
+
+}
+
+.home .nav .nav-img img {
+    width: 150px;
+}
+
+.home ul {
+
+    float: right;
+    list-style-type: none;
+}
+
+.home ul li {
+    float: left;
+    padding: 20px 10px;
+    margin-top: 20px;
+
+}
+
+.home ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* end of nav  */
+/* start of home sec */
+.home {
+    background-image: url("../img/drew-coffman-1872.jpg");
+    text-align: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    overflow: auto;
+    margin-bottom: 80px;
+
+
+}
+
+.home .home-text {
+    padding-top: 150px;
+    text-align: center;
+
+
+
+}
+
+.home .home-text h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.home .home-text p {
+    font-size: 24px;
+    width: 50%;
+    margin: auto;
+
+
+}
+
+.home .home-text button {
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: #8e7754;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.home .home-text .two-btn {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+/* end of home sec */
+
+
+
+
+/* star  */
+
+
+.who-we-are {
+    width: 100%;
+    height: 100vh;
+}
+
+.left {
+    width: 45%;
+    float: left;
+
+}
+
+.right {
+    width: 50%;
+    float: right;
+    vertical-align: middle;
+    
+
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.who-we-are .container .left img {
+    width: 100%;
+}
+
+
+
+.icons div img {
+    width: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.icons div p {
+    display: inline-block;
+
+
+}
+
+/* end  */
+/* start  */
+.location {
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+
+.child1 {
+    width: 40%;
+    margin-top: 50px;
+    float: left;
+}
+
+.child1 p {
+    line-height: 25px;
+
+}
+
+.child2 {
+    width: 45%;
+    float: right;
+    margin-top: 50px;
+
+
+}
+
+.child2 img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* end  */
+/* start  */
+
+
+.item {
+    width: 33.3333%;
+    text-align: center;
+    float: left;
+    padding: 15px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.section-title {
+    line-height: 25px;
+}
+
+
+
+.section-title {
+    text-align: center;
+}
+
+
+/* end  */
+/* start 
+ */
+.Information {
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+
+
+.Contact-text {
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.map {
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+
+
+}
+
+
+
+.Information-icon img {
+    background-color: #8e7754;
+    width: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid rgb(207, 204, 204);
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.Information-icon p {
+    display: inline-block;
+
+}
+
+.Contact-text p {
+    line-height: 25px;
+}
+
+/* end  */
+/* start  */
+.endsec {
+    background-color: #403d38;
+    width: 100%;
+    height: 60vh;
+
+
+}
+
+.one {
+    float: left;
+    width: 25%;
+    padding: 25px;
+}
+
+.one h3 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.one p {
+    color: #969696;
+    line-height: 1.86em;
+
+}
+
+.two {
+    width: 25%;
+    float: left;
+    padding: 25px;
+    font-size: 16px;
+}
+
+.two h3 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.two img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.two p {
+    display: inline-block;
+    color: #969696;
+    border-bottom: 1px solid #726a6a;
+}
+
+
+
+.third {
+    width: 25%;
+    float: left;
+    padding: 25px;
+}
+
+.third h3 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.third img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.third p {
+    display: inline-block;
+    color: #969696;
+    border-bottom: 1px solid #726a6a;
+}
+
+.four {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    background-image: url("../images/contact-details-map.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.four h3 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.four img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.four p {
+    display: inline-block;
+    color: #969696;
+    border-bottom: 1px solid #726a6a;
+}
+
+.non {
+    border-bottom: 0;
+}
+
+/* end  */
+/* start */
+.bakery-end {
+    background-color: #353330;
+    width: 100%;
+    height: 60vh;
+   
+}
+
+.bakery-end .img{
+text-align: center;
+}
+
+
+.bakery-end .img img{
+margin-top: 130px;
+}
+
+.bakery-end p{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.iconfac{
+    text-align: center;
+}
+i {
+    font-size: 25px;
+    margin:10px;
+    color: rgb(255, 255, 255);
+}
+
